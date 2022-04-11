@@ -5,7 +5,6 @@
   async function fetchPeople() {
     const response = await fetch(url);
     var json = await response.json();
-    console.log("awaited json", json);
     return json.value;
   }
 </script>
